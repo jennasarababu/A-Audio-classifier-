@@ -17,4 +17,4 @@ for genre in os.listdir(ORIGINAL):
             create_nightcore(input_path, output_path)
             print(f"Converted: {file}")
         except Exception as e:
-            print(f"Error: {file} -> {e}")
+            print(f"Error: {file} -> {e}")##file is corrupted
